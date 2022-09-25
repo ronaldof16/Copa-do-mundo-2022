@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    background: linear-gradient(#FF00FF, #660066)
+}
+
+.banner {
+    width: 40%;
+    margin: 20px 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-top: 80px;
+    color: white;
+    font-size: 3em;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    column-gap: 20%;
+}
+
+.topicos {
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.topicos a {
+    text-decoration: none;
+}
