@@ -1,40 +1,35 @@
-body {
+* {
     margin: 0;
-    
 }
 
 header {
     display: flex;
-    justify-content: center;
-    column-gap: 100px;
-    background: linear-gradient(#FF00FF, #660066)
+    background: linear-gradient(to right, #8C0839, #400219)
 }
 
 .banner {
     width: 40%;
-    margin: 20px 0;
-}
-
-h1 {
-    text-transform: uppercase;
-    margin-top: 80px;
-    color: white;
-    font-size: 3em;
+    margin: 20px 0 20px 50px;
 }
 
 .menu {
     display: flex;
-    justify-content: center;
-    column-gap: 20%;
+    column-gap: 80px;
+    margin-top: 112px;
 }
 
 .topicos {
     text-transform: uppercase;
     list-style: none;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: bold;
 }
 
 .topicos a {
     text-decoration: none;
+    color: white;
+}
+
+.topicos a:hover {
+    color: #984cd6;
 }
