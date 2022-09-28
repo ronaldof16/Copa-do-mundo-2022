@@ -33,3 +33,19 @@ header {
 .topicos a:hover {
     color: #984cd6;
 }
+
+main {
+    background: #be4f78
+
+}
+
+section {
+    display: flex;
+    column-gap: 0px;
+    padding: 30px 100px 0 100px;
+    column-gap: 20px;
+}
+
+.conteudo {
+    font-size: 20px;
+}
