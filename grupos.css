@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background: linear-gradient(to right, #8C0839, #400219)
+}
+
+.banner {
+    width: 40%;
+    margin: 20px 0 20px 50px;
+}
+
+.menu {
+    display: flex;
+    column-gap: 80px;
+    margin-top: 112px;
+}
+
+.topicos {
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.topicos a {
+    text-decoration: none;
+    color: white;
+}
+
+.topicos a:hover {
+    color: #984cd6;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0 10px 0;
+    background: #d37497
+}
+
+.taca {
+    height: 100px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.822);
+}
+
+.rodape {
+    font-size: 13px;
+}
