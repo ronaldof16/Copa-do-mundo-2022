@@ -14,7 +14,7 @@ header {
 
 .menu {
     display: flex;
-    column-gap: 80px;
+    column-gap: 40px;
     margin-top: 112px;
 }
 
@@ -36,7 +36,6 @@ header {
 
 main {
     background: #be4f78
-
 }
 
 section {

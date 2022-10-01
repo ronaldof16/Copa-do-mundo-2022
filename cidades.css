@@ -14,7 +14,7 @@ header {
 
 .menu {
     display: flex;
-    column-gap: 80px;
+    column-gap: 40px;
     margin-top: 112px;
 }
 
@@ -34,12 +34,23 @@ header {
     color: #984cd6;
 }
 
+main {
+    background: #be4f78
+}
+
 section {
-    margin: 10px 200px;
+    padding: 10px 200px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 28px;
     padding: 10px 0;
 }
 

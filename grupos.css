@@ -14,7 +14,7 @@ header {
 
 .menu {
     display: flex;
-    column-gap: 80px;
+    column-gap: 40px;
     margin-top: 112px;
 }
 
@@ -34,10 +34,24 @@ header {
     color: #984cd6;
 }
 
+main {
+    background: #be4f78
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
 section {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    padding-bottom: 20px;
+}
+
+.grupos {
+    width: 130px;
 }
 
 li {
