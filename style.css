@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    padding: 0;
 }
 
 header {
@@ -70,6 +69,10 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+    * {
+        padding: 0;
+    }
+
     header {
         display: block;
     }
@@ -93,5 +96,9 @@ footer {
     section {
         display: block;
         padding: 10px;  
+    }
+
+    p {
+        margin-top: 10px;
     }
 }
