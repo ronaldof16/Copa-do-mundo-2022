@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
 header {
@@ -71,5 +72,31 @@ footer {
 
 .rodape {
     font-size: 13px;
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        display: block;
+    }
+
+    .banner {
+        width: 100%;
+        margin: 0;
+    }
+
+    .menu {
+        margin: 20px 0 0 20px;
+        column-gap: 8px;
+        width: 100%;
+    }
+
+    .topicos {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    section {
+        padding: 20px;
+    }
 }
 
