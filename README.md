@@ -2,6 +2,7 @@
 
 Link do site: <https://ronaldof16.github.io/Copa-do-mundo-2022/>
 
+![design do projeto](../images/design-copa.png)
 
 ## Sobre
 Site com Informações da copa do mundo 2022, navegando no site vai ser possível consultar algumas informações sobre a copa do mundo 2022, como por exemplo:
